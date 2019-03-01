@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AIO
+namespace Flasker
 {
     public class Validations
     {

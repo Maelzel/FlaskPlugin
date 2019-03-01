@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using PoeHUD.Models;
 using PoeHUD.Plugins;
 
-namespace AIO
+namespace Flasker
 {
     public class Plugin : BaseSettingsPlugin<Settings>
     {

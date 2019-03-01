@@ -10,7 +10,7 @@ using SharpDX;
 using TreeSharp;
 using TreeRoutine.Menu;
 
-namespace AIO
+namespace Flasker
 {
     public partial class Menu
     {

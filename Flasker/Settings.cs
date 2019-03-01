@@ -7,7 +7,7 @@ using PoeHUD.Hud.Settings;
 using PoeHUD.Plugins;
 using SharpDX;
 
-namespace AIO
+namespace Flasker
 {
     public class Settings : SettingsBase
     {
