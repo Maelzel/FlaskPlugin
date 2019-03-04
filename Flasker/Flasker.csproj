@@ -7,8 +7,8 @@
     <ProjectGuid>{3BB28525-39F6-4811-9D53-BBAE12D0C561}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AIO</RootNamespace>
-    <AssemblyName>AIO</AssemblyName>
+    <RootNamespace>Flasker</RootNamespace>
+    <AssemblyName>Flasker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -65,12 +65,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="TreeRoutine">
-      <HintPath>..\..\..\BasicFlaskRoutine-master\TreeRoutine.dll</HintPath>
-    </Reference>
-    <Reference Include="TreeSharp">
-      <HintPath>..\..\..\BasicFlaskRoutine-master\TreeSharp.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu.cs" />

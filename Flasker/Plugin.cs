@@ -10,18 +10,24 @@ namespace Flasker
 {
     public class Plugin : BaseSettingsPlugin<Settings>
     {
-        private Validations validations = new Validations();
+        private string pluginVersion;
 
         public override void Initialise()
         {
             base.Initialise();
             PluginName = "Flasker";
+            pluginVersion = "v1";
         }
 
         public override void Render()
         {
             base.Render();
-            Menu.DrawMenu();
+        }
+
+        public override void DrawSettingsMenu()
+        {
+            base.DrawSettingsMenu();
+            Menu.DrawMenu(pluginVersion);
         }
     }
 }
